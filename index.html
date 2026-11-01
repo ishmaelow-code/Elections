@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nationwide Sorting and Counting Underway</title>
+<style>
+  :root { box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  html, body { height: 100%; margin: 0; background: #0b0b0d; }
+  body { display: flex; align-items: center; overflow: hidden; }
+  .ticker { width: 100%; overflow: hidden; white-space: nowrap; }
+  .track { display: inline-flex; animation: scroll 40s linear infinite; will-change: transform; }
+  .track span {
+    color: #F59E0B;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: clamp(32px, 9vw, 96px);
+    letter-spacing: 0.06em;
+    padding-right: 4rem;
+  }
+  @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .track { animation-duration: 120s; } }
+</style>
+</head>
+<body>
+  <div class="ticker">
+    <div class="track">
+      <span>NATIONWIDE SORTING AND COUNTING UNDERWAY</span>
+      <span>NATIONWIDE SORTING AND COUNTING UNDERWAY</span>
+      <span>NATIONWIDE SORTING AND COUNTING UNDERWAY</span>
+      <span>NATIONWIDE SORTING AND COUNTING UNDERWAY</span>
+    </div>
+  </div>
+</body>
+</html>
